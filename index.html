@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia 7 de Setembro — cortes, barba e estilo masculino.">
+    <title>Barbearia 7 de Setembro | Seu estilo começa aqui</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+
+    <!-- Cursor decorativo -->
+    <div class="cursor-glow"></div>
+
+    <!-- Barra de progresso da página -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+        <a href="#inicio" class="brand" aria-label="Voltar ao início">
+            <img src="img/logo.png" alt="Logo Barbearia 7 de Setembro">
+            <span>7 DE SETEMBRO</span>
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">A barbearia</a>
+            <a href="#cortes">Cortes</a>
+            <a href="#precos">Preços</a>
+            <a href="#contato">Contato</a>
+            <a href="#agendar" class="nav-cta">Agendar</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- ==================== HERO ==================== -->
+        <section class="hero" id="inicio">
+            <div class="hero-bg"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-light hero-light-1"></div>
+            <div class="hero-light hero-light-2"></div>
+
+            <div class="hero-content reveal">
+                <span class="eyebrow"><i></i> BARBEARIA 7 DE SETEMBRO <i></i></span>
+                <h1>SEU ESTILO.<br><span>NOSSO CORTE.</span></h1>
+                <p>Mais que um corte: uma experiência feita para quem gosta de presença, cuidado e estilo.</p>
+
+                <div class="hero-buttons">
+                    <a href="#cortes" class="btn btn-light">Conheça nossos cortes <span>↗</span></a>
+                    <a href="#agendar" class="btn btn-outline">Agendar horário</a>
+                </div>
+            </div>
+
+            <div class="hero-badge">
+                <span class="badge-number">07</span>
+                <span>SET<br>EST.</span>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <i></i>
+            </div>
+        </section>
+
+        <!-- ==================== MARQUEE ==================== -->
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>CORTE</span><b>✦</b><span>BARBA</span><b>✦</b><span>ESTILO</span><b>✦</b>
+                <span>PRECISÃO</span><b>✦</b><span>EXPERIÊNCIA</span><b>✦</b><span>CORTE</span><b>✦</b>
+                <span>BARBA</span><b>✦</b><span>ESTILO</span><b>✦</b><span>PRECISÃO</span><b>✦</b>
+            </div>
+        </div>
+
+        <!-- ==================== SOBRE ==================== -->
+        <section class="section about" id="sobre">
+            <div class="section-number">01</div>
+            <div class="about-visual reveal-left">
+                <div class="about-photo">
+                    <div class="photo-overlay"></div>
+                    <div class="photo-label">
+                        <span>DESDE</span>
+                        <strong>2025</strong>
+                    </div>
+                </div>
+                <div class="about-frame"></div>
+                <div class="about-stamp">7<br><small>SET</small></div>
+            </div>
+
+            <div class="about-content reveal-right">
+                <span class="section-kicker">A BARBEARIA</span>
+                <h2>TRADIÇÃO NO<br><em>DETALHE.</em></h2>
+                <p class="lead">A Barbearia 7 de Setembro nasceu para unir a essência clássica da barbearia com a atitude de quem vive o presente.</p>
+                <p>Ambiente confortável, atendimento próximo e profissionais atentos a cada detalhe. Aqui, cada corte é pensado para combinar com o seu estilo — do clássico ao mais atual.</p>
+
+                <div class="about-stats">
+                    <div><strong class="counter" data-target="2">0</strong><span>anos de história</span></div>
+                    <div><strong class="counter" data-target="2500">0</strong><span>clientes atendidos</span></div>
+                    <div><strong class="counter" data-target="12">0</strong><span>estilos de corte</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SERVIÇOS ==================== -->
+        <section class="section services" id="servicos">
+            <div class="section-number">02</div>
+            <div class="section-heading reveal">
+                <div>
+                    <span class="section-kicker">O QUE FAZEMOS</span>
+                    <h2>DO SEU JEITO.</h2>
+                </div>
+                <p>Serviços pensados para deixar seu visual em dia, com técnica, cuidado e acabamento.</p>
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card reveal">
+                    <span class="service-icon">01</span>
+                    <h3>Corte</h3>
+                    <p>Máquina, tesoura ou os dois. O corte é adaptado ao seu estilo.</p>
+                    <span class="service-arrow">↗</span>
+                </article>
+                <article class="service-card reveal">
+                    <span class="service-icon">02</span>
+                    <h3>Barba</h3>
+                    <p>Desenho, alinhamento e acabamento para uma barba bem definida.</p>
+                    <span class="service-arrow">↗</span>
+                </article>
+                <article class="service-card reveal">
+                    <span class="service-icon">03</span>
+                    <h3>Corte + Barba</h3>
+                    <p>O combo completo para sair renovado e com tudo alinhado.</p>
+                    <span class="service-arrow">↗</span>
+                </article>
+                <article class="service-card service-card-dark reveal">
+                    <span class="service-icon">04</span>
+                    <h3>Sobrancelha</h3>
+                    <p>Acabamento discreto para valorizar o rosto sem exageros.</p>
+                    <span class="service-arrow">↗</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==================== CORTES / CARROSSEL ==================== -->
+        <section class="section cuts" id="cortes">
+            <div class="section-number">03</div>
+            <div class="cuts-header reveal">
+                <div>
+                    <span class="section-kicker">CATÁLOGO</span>
+                    <h2>ESCOLHA SEU<br><em>ESTILO.</em></h2>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevCut" aria-label="Corte anterior">←</button>
+                    <span><b id="slideCurrent">01</b> / <span id="slideTotal">06</span></span>
+                    <button class="carousel-btn" id="nextCut" aria-label="Próximo corte">→</button>
+                </div>
+            </div>
+
+            <div class="carousel reveal">
+                <div class="carousel-track" id="carouselTrack">
+                    <article class="cut-slide active">
+                        <div class="cut-image image-1">
+                            <span>01</span>
+                        </div>
+                        <div class="cut-info">
+                            <span>CLÁSSICO</span>
+                            <h3>LOW FADE</h3>
+                            <p>Laterais baixas e transição suave para um visual limpo e versátil.</p>
+                        </div>
+                    </article>
+
+                    <article class="cut-slide">
+                        <div class="cut-image image-2">
+                            <span>02</span>
+                        </div>
+                        <div class="cut-info">
+                            <span>MODERNO</span>
+                            <h3>MID FADE</h3>
+                            <p>Equilíbrio entre presença e acabamento, perfeito para o dia a dia.</p>
+                        </div>
+                    </article>
+
+                    <article class="cut-slide">
+                        <div class="cut-image image-3">
+                            <span>03</span>
+                        </div>
+                        <div class="cut-info">
+                            <span>MARCADOR</span>
+                            <h3>HIGH FADE</h3>
+                            <p>Contraste mais forte nas laterais para um visual marcante.</p>
+                        </div>
+                    </article>
+
+                    <article class="cut-slide">
+                        <div class="cut-image image-4">
+                            <span>04</span>
+                        </div>
+                        <div class="cut-info">
+                            <span>TEXTURA</span>
+                            <h3>TWIST / CROP</h3>
+                            <p>Textura no topo com acabamento preciso para destacar o formato.</p>
+                        </div>
+                    </article>
+
+                    <article class="cut-slide">
+                        <div class="cut-image image-5">
+                            <span>05</span>
+                        </div>
+                        <div class="cut-info">
+                            <span>ATEMPORAL</span>
+                            <h3>SOCIAL</h3>
+                            <p>Um corte elegante e organizado para quem prefere o clássico.</p>
+                        </div>
+                    </article>
+
+                    <article class="cut-slide">
+                        <div class="cut-image image-6">
+                            <span>06</span>
+                        </div>
+                        <div class="cut-info">
+                            <span>OUSADO</span>
+                            <h3>DESENHADO</h3>
+                            <p>Detalhes personalizados para transformar o corte em identidade.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="carousel-dots" id="carouselDots">
+                <button class="active" data-slide="0"></button>
+                <button data-slide="1"></button>
+                <button data-slide="2"></button>
+                <button data-slide="3"></button>
+                <button data-slide="4"></button>
+                <button data-slide="5"></button>
+            </div>
+        </section>
+
+        <!-- ==================== PREÇOS ==================== -->
+        <section class="section pricing" id="precos">
+            <div class="section-number">04</div>
+            <div class="pricing-heading reveal">
+                <span class="section-kicker">TABELA DE PREÇOS</span>
+                <h2>VALORES<br><em>SEM SURPRESA.</em></h2>
+                <p>*Valores demonstrativos. Altere esta seção conforme os preços reais da barbearia.</p>
+            </div>
+
+            <div class="price-list reveal">
+                <div class="price-item">
+                    <div><span>01</span><h3>Corte tradicional</h3><p>Máquina + tesoura + acabamento</p></div>
+                    <strong>R$ 35</strong>
+                </div>
+                <div class="price-item featured">
+                    <div><span>02</span><h3>Corte + barba</h3><p>Combo completo + acabamento</p></div>
+                    <strong>R$ 55</strong>
+                    <b class="popular">MAIS PEDIDO</b>
+                </div>
+                <div class="price-item">
+                    <div><span>03</span><h3>Barba</h3><p>Desenho + alinhamento + acabamento</p></div>
+                    <strong>R$ 25</strong>
+                </div>
+                <div class="price-item">
+                    <div><span>04</span><h3>Corte premium</h3><p>Corte + barba + sobrancelha</p></div>
+                    <strong>R$ 65</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== EXPERIÊNCIA ==================== -->
+        <section class="experience">
+            <div class="experience-bg"></div>
+            <div class="experience-content reveal">
+                <span class="section-kicker">A EXPERIÊNCIA 7 DE SETEMBRO</span>
+                <h2>ENTRE.<br><em>SENTE.</em><br>RENOVE.</h2>
+                <p>Um momento para desacelerar, cuidar do visual e sair pronto para a próxima.</p>
+                <a href="#agendar" class="btn btn-light">Quero agendar <span>↗</span></a>
+            </div>
+        </section>
+
+        <!-- ==================== DEPOIMENTOS ==================== -->
+        <section class="section testimonials">
+            <div class="section-number">05</div>
+            <div class="section-heading reveal">
+                <div>
+                    <span class="section-kicker">QUEM JÁ PASSOU POR AQUI</span>
+                    <h2>QUEM VEM,<br><em>VOLTA.</em></h2>
+                </div>
+            </div>
+
+            <div class="testimonial-grid">
+                <article class="testimonial reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>“Ambiente muito bom e atendimento de primeira. O corte ficou exatamente como eu queria.”</p>
+                    <strong>Lucas M.</strong>
+                    <span>Cliente</span>
+                </article>
+                <article class="testimonial reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>“Gostei muito do acabamento. Dá para perceber o cuidado em cada detalhe do corte.”</p>
+                    <strong>Rafael S.</strong>
+                    <span>Cliente</span>
+                </article>
+                <article class="testimonial reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>“Lugar tranquilo, atendimento rápido e resultado muito bom. Virou meu lugar para cortar.”</p>
+                    <strong>Gabriel A.</strong>
+                    <span>Cliente</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==================== AGENDAMENTO ==================== -->
+        <section class="booking" id="agendar">
+            <div class="booking-inner reveal">
+                <div>
+                    <span class="section-kicker">SEU PRÓXIMO CORTE</span>
+                    <h2>PRONTO PARA<br><em>MUDAR O VISUAL?</em></h2>
+                </div>
+                <a href="https://wa.me/5512999997777?text=Olá!%20Quero%20agendar%20um%20horário%20na%20Barbearia%207%20de%20Setembro." target="_blank" rel="noopener" class="btn btn-dark">Agendar pelo WhatsApp <span>↗</span></a>
+            </div>
+        </section>
+
+        <!-- ==================== CONTATO ==================== -->
+        <section class="section contact" id="contato">
+            <div class="section-number">06</div>
+            <div class="contact-grid">
+                <div class="contact-copy reveal-left">
+                    <span class="section-kicker">FALE COM A GENTE</span>
+                    <h2>VAMOS<br><em>CONVERSAR?</em></h2>
+                    <p>Os dados abaixo são demonstrativos. Troque endereço, telefone, Instagram e horários pelos dados reais da barbearia.</p>
+
+                    <div class="contact-list">
+                        <a href="https://wa.me/5512999997777" target="_blank" rel="noopener">
+                            <span>WHATSAPP</span>
+                            <strong>(12) 99999-7777</strong>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener">
+                            <span>INSTAGRAM</span>
+                            <strong>@barbearia7desetembro</strong>
+                        </a>
+                        <div>
+                            <span>ENDEREÇO</span>
+                            <strong>Av. 7 de Setembro, 777 — Centro</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-card reveal-right">
+                    <div class="map-placeholder">
+                        <div class="map-grid"></div>
+                        <div class="map-pin">✦</div>
+                        <span>BARBEARIA 7 DE SETEMBRO</span>
+                    </div>
+                    <div class="opening">
+                        <div>
+                            <span>HORÁRIOS</span>
+                            <strong>Ter — Sáb</strong>
+                        </div>
+                        <div>
+                            <span>ATENDIMENTO</span>
+                            <strong>09h — 19h</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-top">
+            <a href="#inicio" class="footer-brand">
+                <img src="img/logo.png" alt="Logo">
+                <div><strong>BARBEARIA</strong><span>7 DE SETEMBRO</span></div>
+            </a>
+            <div class="footer-slogan">SEU ESTILO.<br><em>SEU MOMENTO.</em></div>
+            <a href="#inicio" class="back-top" aria-label="Voltar ao topo">↑</a>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Barbearia 7 de Setembro</span>
+            <span>Site demonstrativo — personalize os dados da barbearia.</span>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
