@@ -2,16 +2,7 @@
 
 Site institucional demonstrativo criado em HTML, CSS e JavaScript.
 
-## Estrutura
 
-SiteBarbearia/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── img/
-    └── logo.png
 
 ## Antes de publicar
 
